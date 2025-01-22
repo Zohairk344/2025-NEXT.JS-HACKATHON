@@ -1,12 +1,10 @@
-/* eslint-disable */
 import { client } from "@/sanity/lib/client";
 import CartSidebarClient from "./CartSidebarClient";
 import { Product } from "@/types/product";
 import { notFound } from "next/navigation";
 
-// Define the props for the Single_Item component
 interface ProductDetailProps {
-  params: any; 
+  params: { id: string };
 }
 
 export default async function Single_Item({ params }: ProductDetailProps) {
