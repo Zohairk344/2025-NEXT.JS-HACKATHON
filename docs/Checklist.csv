@@ -1,0 +1,18 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level
+TC001,Validate product listing,Open product page > Verify products,Products displayed correctly,Products displayed correctly,,
+TC002,Test filters and search,Apply filter > Verify results > Search product > Verify results,Filters and search work,Filters and search work,,
+TC003,Check cart functionality,Add product > Update quantity > Remove product,Cart updates correctly,Cart updates correctly,,
+TC004,Ensure dynamic routing,Click product > Verify product detail page loads,Product detail page loads,Product detail page loads,,
+TC005,Ensure Checkout System Works,Click AddToCart > Go To Cart> Press Checkout and see product and money,Product Prices Calculated Correctly,Product Prices Calculated Correctly,,
+TC008,Optimize images,Compress images > Use Next.js Image component,Faster image load times,Faster image load times,,Medium
+TC009,Lazy load non-critical components,Use dynamic imports for Footer and TagFilter,Smaller initial bundle size,Smaller initial bundle size,,Medium
+TC010,Minimize and bundle CSS/JS,Use Terser and CSSNano during build,Smaller asset sizes,Smaller asset sizes,,High
+TC011,Implement caching,Add caching headers for static assets,Faster repeat visits,Faster repeat visits,,High
+TC012,Analyze performance,Run Lighthouse audit > Address flagged issues,Improved performance metrics,Improved performance metrics,,High
+TC020,Validate user inputs,Enter invalid characters in search/filter fields,Input is rejected,Input is rejected,,High
+TC021,Secure API communication,Verify API calls are made over HTTPS,All API calls use HTTPS,All API calls use HTTPS,,High
+TC022,Prevent XSS attacks,Inject malicious scripts into user inputs,Scripts are sanitized,Scripts are sanitized,,High
+TC023,Avoid exposing sensitive data,Check for API keys or tokens in frontend code,No sensitive data exposed,No sensitive data exposed,,High
+TC025,Browse products and apply filters,Open product page > Apply filters > Verify results,Filters return accurate results,Filters return accurate results,,
+TC026,Add product to cart,Add product to cart > Verify cart updates,Cart updates correctly,Cart updates correctly,,
+TC027,Complete checkout process,Add product to cart > Proceed to checkout > Enter payment details > Place order,Order is placed successfully,Order is placed successfully,,
